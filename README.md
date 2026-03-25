@@ -2,10 +2,12 @@
 
 ## About Me
 
-Causal Inference, Recommendation Systems, AdTech 분야에 관심을 가지고 있습니다.
-관측 데이터에서의 인과 효과 추정과 이를 활용한 의사결정 최적화를 연구합니다.
+ML, Causal Inference, LLM 등의 방법론을 활용하여
+개인화, 실험, 추천 등의 태스크에서 현실 문제를 해결합니다.
+관측 데이터에서의 인과 효과 추정과 이를 통한 의사결정 최적화에 집중하고 있습니다.
 
-- **Interests**: Causal Inference, Heterogeneous Treatment Effects, Recommendation Systems, Real-Time Bidding
+- **Methods**: ML, Causal Inference, LLM
+- **Tasks**: Personalization, Experimentation, Recommendation
 - **GitHub**: [tae73](https://github.com/tae73)
 
 ---
