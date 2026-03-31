@@ -53,3 +53,17 @@ Real-Time Bidding에서 Bid→Win→Click 퍼널의 Win Selection Bias를 ESMM-W
 이중 강건 추정으로 교정. Win Tower 이중 목적 설계로 CTR 디바이싱 성향 점수 산출 (AUC ~0.91).
 
 📄 [Overview](https://github.com/tae73/rtb_ipinyou/blob/main/docs/prediction_report_summary.md) · 🔬 [Deep Dive](https://github.com/tae73/rtb_ipinyou/blob/main/docs/prediction_report.md) · 💻 [Source](https://github.com/tae73/rtb_ipinyou)
+
+---
+
+### 4. First-Price Bid Optimization for RTB — iPinYou
+
+> Debiased pCTR 기반 Bid Shading + PID Budget Pacing (ROI 0.74 → 3.26, 4.4x 향상)
+
+`Python` `RTB` `Bid Optimization` `Kaplan-Meier` `PID Control` `LightGBM`
+
+Debiased pCTR(ESCM²-WC(DR), IEB 0.014)을 기반으로 impression value를 산출하고,
+Kaplan-Meier CDF 기반 bid shading과 PID budget pacing을 결합한 모듈형 입찰 시스템.
+iPinYou flat-bid 대비 surplus +933M CPM 개선, win rate 38%로 조절하며 ROI 4.4배 향상.
+
+📄 [Overview](https://github.com/tae73/rtb_ipinyou/blob/main/docs/bid_optimization_report_summary.md) · 🔬 [Deep Dive](https://github.com/tae73/rtb_ipinyou/blob/main/docs/bid_optimization_report.md) · 💻 [Source](https://github.com/tae73/rtb_ipinyou)
