@@ -21,8 +21,8 @@ Causal Inference, ML, LLM 등의 방법론을 기반으로
 `Python` `Causal Inference` `NMF` `K-Means` `HTE` `Policy Learning` `Optuna`
 
 Dunnhumby 리테일 데이터(2,500 가구, 260만 거래)를 활용한 2-Track 프레임워크.
-Track 1에서 NMF 잠재 요인 모델링과 K-Means 클러스터링으로 7개 고객 세그먼트를 정의하고,
-Track 2에서 이질적 처리 효과(HTE) 추정과 정책 학습을 통해 최적 31% 타겟팅 규칙을 도출하여
+Track 1에서 NMF 잠재 요인 모델링과 K-Means 클러스터링으로 7개 고객 세그먼트를 정의.
+Track 2에서 이질적 처리 효과(HTE) 추정과 정책 학습을 통해 최적 31% 타겟팅 규칙을 도출.
 $7,083 매출 개선(ROI +200pp)을 달성.
 
 📄 [Overview](https://github.com/tae73/kr_segmentation_causal_targeting_dunnhumby/blob/main/README.md) · 🔬 [Deep Dive — Track 1 (세분화)](https://github.com/tae73/kr_segmentation_causal_targeting_dunnhumby/blob/main/docs/track1_report.md) · [Deep Dive — Track 2 (인과추론 & 최적 정책)](https://github.com/tae73/kr_segmentation_causal_targeting_dunnhumby/blob/main/docs/track2_report.md) · 💻 [Source](https://github.com/tae73/kr_segmentation_causal_targeting_dunnhumby)
@@ -35,9 +35,9 @@ $7,083 매출 개선(ROI +200pp)을 달성.
 
 `Python` `LLM` `KAR` `DeepFM` `PyTorch` `Recommendation Systems` `Hydra`
 
-H&M 패션 추천에서 Triple-Sparsity 문제(32.1% sparse users, 99.98% sparse matrix)를 해결하기 위해
-LLM으로 추출한 다층 속성(L1+L2+L3)의 점진적 가치를 검증.
-DeepFM + KAR 아키텍처 기반 discovery-oriented 추천 시스템.
+H&M 패션 추천에서 Sparsity 문제(32.1% sparse users, 99.98% sparse matrix)를 해결하기 위해
+LLM으로 추출한 속성의 item factual knowledge, user reasoning knowledge를 점진적 가치를 검증.
+DeepFM, DCNv2 + KAR 아키텍처 기반 discovery-oriented 추천 시스템.
 
 💻 [Source](https://github.com/tae73/llm-factor-recsys-hnm)
 
