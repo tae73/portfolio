@@ -2,11 +2,11 @@
 
 ## About Me
 
-ML, Causal Inference, LLM 등의 방법론을 활용하여
-개인화, 실험, 추천 등의 태스크에서 현실 문제를 해결합니다.
+Causal Inference, ML, LLM 등의 방법론을 기반으로
+개인화, 실험, 추천 문제에 접근합니다.
 관측 데이터에서의 인과 효과 추정과 이를 통한 의사결정 최적화에 집중하고 있습니다.
 
-- **Methods**: ML, Causal Inference, LLM
+- **Methods**: Causal Inference, ML, LLM
 - **Tasks**: Personalization, Experimentation, Recommendation
 - **GitHub**: [tae73](https://github.com/tae73)
 
